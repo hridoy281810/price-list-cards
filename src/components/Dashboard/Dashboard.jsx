@@ -76,13 +76,13 @@ const Dashboard = () => {
       ];
       
     return (
-        <div className='ml-12 mt-8'>
-            <LineChart
-            width={500}
+        <div className='mx-12 mt-8'>
+            <LineChart className='sm:w-5'
+            width={1280}
             height={300}
             data={studentMarks}
             >
-<Line dataKey="math"></Line>
+<Line  dataKey="math"></Line>
 <Line stroke='red' dataKey="physics"></Line>
 <Line stroke='green' dataKey="chemistry"></Line>
 <XAxis dataKey="name"></XAxis>

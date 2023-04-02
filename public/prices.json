@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Basic",
+      "price": 30.99,
+      "features": ["Off-peak gym access"]
+    },
+    {
+      "id": 2,
+      "name": "Standard",
+      "price": 45.99,
+      "features": ["24/7 gym access", "Group fitness classes"]
+    },
+    {
+      "id": 3,
+      "name": "Premium",
+      "price": 60.99,
+      "features": ["24/7 gym access", "Group fitness classes", "Personal training sessions"]
+    }
+  ]
+  
